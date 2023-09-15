@@ -1,0 +1,188 @@
+/*CSS Reset and General Styles*/
+*{
+    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    font-family:Helvetica, sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #6d9773,#fff);
+    color: #0c3b23;
+}
+input, textarea{
+    font: inherit;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+/*Header Area Styles*/
+header{
+    background-color: #0c3b2e;
+    color: #fff;
+}
+h1{
+    padding-top: .5;
+    padding-left: .5;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+nav ul{
+    text-align: right;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+}
+nav li{
+    font-size: 1.5rem;
+}
+nav a {
+    color: white;
+}
+nav a:hover{
+    border-bottom: 4px solid #6d9773 ;
+}
+nav a:active{
+    border-bottom: 4px solid #6d9773 ;
+}
+
+/*Main Content Area Styles*/
+main{
+    background-color: white;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 0;
+}
+h2{
+    color: #ffba00;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+main img{
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 10px 6px -6px #6d9773;
+}
+
+/*Footer Area Styles*/
+footer{
+    background-color: #0C3B2E;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+p.front-sm{
+    font-size: .8rem;
+}
+
+/*Home Page Styles*/
+main li{
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    background-size: 1em 1em;
+    padding-left: 1.5em;
+    background-position: 0 0.2em;
+}
+.indent-right{
+    padding-left: 1em;
+}
+main a{
+    color:#6d9773;
+}
+main a:hover{
+    border-bottom: 2px solid #6d9773;
+}
+main a:active{
+    border-bottom: 2px solid #6d9773;
+}
+/*Menu Page Styles*/
+table{
+    width: 50%;
+    border: solid 3px #6d9773;
+    border-collapse: collapse;
+}
+thead > tr{
+    background-color: #6D9773;
+    color: white  
+}
+th, td{
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+tr:nth-child(4){
+    border-bottom: solid 3px #6D9773;
+}
+tr:nth-child(8){
+    border-bottom: solid 3px #6D9773;
+}
+
+caption{
+    text-align: right;
+    font-weight: bold;
+    font-style: italic;
+}
+/*Reservations Page Styles*/
+input[type="text"]{
+    border: solid 2px #0C3b2e;
+    margin-bottom: 0.5rem;
+    width: 60%;
+    padding: 0.6em;
+}
+input[type="email"]{
+    border: solid 2px #0C3b2e;
+    margin-bottom: 0.5rem;
+    width: 60%;
+    padding: 0.6em;
+}
+input[type="number"]{
+    border: solid 2px #0C3b2e;
+    margin-bottom: 0.5rem;
+    width: 60%;
+    padding: 0.6em;
+}
+input[type="datetime-local"]{
+    border: solid 2px #0C3b2e;
+    margin-bottom: 0.5rem;
+    width: 60%;
+    padding: 0.6em;
+}
+input[type="tel"]{
+    border: solid 2px #0C3b2e;
+    margin-bottom: 0.5rem;
+    width: 60%;
+    padding: 0.6em;
+}
+textarea[name="message"]{
+    border: solid 2px #0C3b2e;
+    margin-bottom: 0.5rem;
+    width: 60%;
+    padding: .6em;
+    height: 8em;
+}
+input[type="submit"]{
+    background-color: #0c3b2e;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 5px;
+}
